@@ -1,0 +1,29 @@
+#main
+{
+    width: 1000px;
+    float: left;
+    background-color: blue;
+}
+#board{
+    background:url(Images/board.gif);
+    background-size:cover;
+    width:650px;
+    height:550px;
+    float:left;
+    margin-top:8px;
+}
+#dice
+{
+    background-image:url(Images/dice.gif);
+    background-size:contain;
+     width:150px;
+     height:150px; 
+     float:left;
+     border: 5px solid black;
+}
+.pawns{
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    position:absolute;
+}
